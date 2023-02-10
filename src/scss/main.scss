@@ -1,0 +1,22 @@
+// Default variable overrides
+$primary: #fdc000;
+$container-max-widths: (
+  sm: 540px,
+  md: 704px,
+  lg: 924px,
+  xl: 1140px,
+  xxl: 1364px
+);
+
+
+
+
+// Required (색상의 재 정의: 밑에 코드가 적용되기전에 내가 적용하려는 내용을 적는다.)
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
